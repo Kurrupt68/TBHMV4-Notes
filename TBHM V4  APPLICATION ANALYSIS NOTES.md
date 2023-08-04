@@ -28,15 +28,15 @@
 
 ## Content Discovery 
 -  Based on Tech
-	-  Assetnote  language specific wordlist + SecLists
- -  Commercial off the shelf (COTS) / Paid/ Open Source Software. 
+	-  Assetnote  language-specific wordlist + SecLists
+ -  Commercial off-the-shelf (COTS) / Paid/ Open Source Software. 
 	 -  Open Source :  [source2url](https://github.com/danielmiessler/Source2URL/tree/master)
 	 -  CRM 
-		 - Free Trial ? 
-		 - Demo ? 
+		 - Free Trial? 
+		 - Demo? 
 -  Custom Wordlist 
 	-  [Burp_scavenger](https://github.com/0xDexter0us/Scavenger)
-	-   [That tomnomnom's talk : Who What Where When](https://www.youtube.com/watch?v=W4_QCSIujQ4) 
+	-   [That tomnomnom's talk: Who What Where When](https://www.youtube.com/watch?v=W4_QCSIujQ4) 
 -  Historical
 	-  [gau](https://github.com/lc/gau)  into  [trashcompactor](https://github.com/michael1026/trashcompactor)
 -  Recursion 
@@ -51,15 +51,15 @@
 	-  Newsletter
 	-  Affiliate Programs.
 	-  Domain Monitoring. 
-`Tools :`  [Feroxbuster](https://github.com/epi052/feroxbuster),[ffuf](https://github.com/ffuf/ffuf), [gobuster](https://github.com/OJ/gobuster)  (Use Which ever works for you xD )
+`Tools :`  [Feroxbuster](https://github.com/epi052/feroxbuster),[ffuf](https://github.com/ffuf/ffuf), [gobuster](https://github.com/OJ/gobuster)  (Use Whichever works for you xD )
 `wordlists:` [Assetnote Wordlists ](https://wordlists.assetnote.com) 
 
 ## Application Analysis
-Here, you want to answer the following questions based on the applications design/functionalities. 
+Here, you want to answer the following questions based on the design/functionalities of the application. 
 -  1. How Does the Application Pass Data? 
 		- Parameter values? or  Routes? 
 -  2. How and Where does the Application talk about users? 
-	-  Where ? 
+	-  Where? 
 		 - Cookies
 		-  API Calls
 	-   How? 
@@ -67,37 +67,37 @@ Here, you want to answer the following questions based on the applications desig
 		 - Email 
 		-  Username
 	        - UUID 	 
--  3. Does the Application have multi tenancy or User Levels? 
-	-  Application is for Customers? 
-		- e.g Sport Betting Applications. 
-	- Appliction has Multiple User Levels
+-  3. Does the Application have multi-tenancy or User Levels? 
+	-  Application for Customers? 
+		- e.g. Sport Betting Applications. 
+	- Application has Multiple User Levels
 		- Admin (CMS/Framework)
 		- Tenant (Account Admin)
 		- Tenant (Account User)
 		- Unauth users functionality. 
--  4. Does the Application have  unique threat model? 
-	- e.g Twitch - Stream Key. 
+-  4. Does the Application have  a unique threat model? 
+	- e.g. Twitch - Stream Key. 
 		- Airlines - Customer PII
 -  5 How does the Application handle bad inputs
 	-  XSS 
 	- CSRF
 	- Code Injection 
--  6. Previous Security Research & Vulnerabilities ? 
-	-   Hacktivity / Crowdstream / Individual write ups (Medium, Linkedin)
+-  6. Previous Security Research & Vulnerabilities? 
+	-   Hacktivity / Crowdstream / Individual write-ups (Medium, Linkedin)
 ## Spidering
 -  CLI 
 	-  [Hakrawler](https://github.com/hakluke/hakrawler) / [GoSpider](https://github.com/jaeles-project/gospider)
 - Burpsuite 
 	- Crawler settings 
-		- Do not stop due errors
+		- Do not stop due to errors
 		- Max Concurrent requests  ~ 75 
-	- Recurisve crawl? 
+	- Recursive crawl? 
 ## Javascript Parsing
 - CLI 
 	- [Xnlinkfinder](https://github.com/xnl-h4ck3r/xnLinkFinder)
 - Burp 
 	- GAP 
-- Obfusticated ? 
+- Obfusticated? 
 	- [beautifier.io](https://beautifier.io/)
 - [Retrie.js](https://github.com/RetireJS/retire.js)
 
@@ -108,10 +108,10 @@ Here, you want to answer the following questions based on the applications desig
 		- Integration with 3rd Party
 			- XSS? 
 		- Self Uploads
-			- XML based (Docs/ PDF)
-				- SSRF,XSS
+			- XML-based (Docs/ PDF)
+				- SSRF, XSS
 			- Image
-				- XSS,Shell
+				- XSS, Shell
 					- Name
 					- Binary header
 					- Metadata
@@ -125,7 +125,7 @@ Here, you want to answer the following questions based on the applications desig
 		- Methods
 	- Account Section
 		- Profile
-			- Stored Xss
+			- Stored XSS
 		- App Custom Fields
 		- Integrations
 			- SSRF, XSS 
