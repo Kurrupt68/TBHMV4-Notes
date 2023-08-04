@@ -1,7 +1,7 @@
 ## Project Tracking
 - [xmind](https://xmind.app/)
 - [Obsidian](https://obsidian.md/)
-- Vim 
+- Vim
 `Use whatever works for you? Obsidan rocks btw`
 ## Mission
 - Wide Recon
